@@ -44,5 +44,6 @@ ADD doro-lxde-wallpapers /usr/share/doro-lxde-wallpapers/
 ADD gtkrc-2.0 /home/ubuntu/.gtkrc-2.0
 
 EXPOSE 6080
+EXPOSE 5900
 WORKDIR /root
 ENTRYPOINT ["/startup.sh"]
